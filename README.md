@@ -1,6 +1,6 @@
 # BetterEat24-7
 
-BetterEat24-7 is a web/mobile-friendly project to help people find, order, and manage food options around the clock. It focuses on providing a simple, intuitive UI, reliable ordering flow, store and menu management, and tools for delivery tracking and order history. (Adjust this description to match the actual scope, features, and target platform of your repository.)
+BetterEat24-7 is a web/mobile-friendly project to help people find, order, and manage food options around the clock. It focuses on providing a simple, intuitive UI, reliable ordering flow, store and menu management, and tools for delivery tracking and order history.
 
 ## Table of Contents
 - Overview
@@ -30,11 +30,11 @@ BetterEat24-7 aims to simplify late-night and 24/7 food ordering by aggregating 
 - (Optional) Delivery tracking and ETA
 
 ## Tech stack
-- Frontend: (React / Vue / Angular / Flutter / Native — replace with the real framework used)
-- Backend: (Node.js / Express / Django / Rails — replace accordingly)
+- Frontend: (React / Vue / Angular / Flutter / Native 
+- Backend: (Node.js / Express / Django 
 - Database: (PostgreSQL / MySQL / MongoDB)
 - Authentication: (JWT / OAuth / Firebase Auth)
-- Deployment: (Vercel / Netlify / Heroku / Docker / Kubernetes)
+- Deployment: ( Docker / Kubernetes)
 
 
 ## Installation (local)
@@ -52,25 +52,25 @@ BetterEat24-7 aims to simplify late-night and 24/7 food ordering by aggregating 
    - For mobile:
      cd mobile && npm install
 4. Create environment config
-   - Copy example .env.example to .env and fill in values:
+   - Copy 
      cp .env.example .env
-     EDIT .env (database URL, API keys, secrets)
+     EDIT .env 
 
 ## Configuration
-- DATABASE_URL — connection string for your database
+- DATABASE_URL — connection string for  database
 - JWT_SECRET — secret for signing tokens
-- STRIPE_KEY — (if using payments)
-- MAPS_API_KEY — (if using map services)
+- STRIPE_KEY — (payments)
+- MAPS_API_KEY — (map services)
 - Any other required environment variables should be listed in .env.example
 
 ## Usage
 Start the backend
-- npm run dev (or the equivalent command)
+- npm run dev 
 
 Start the frontend
-- npm start (or the framework-specific command)
+- npm start 
 
-Open your browser at http://localhost:3000 (or configured port)
+Open your browser at http://localhost:3000 
 
 ## Development
 - Branching strategy: Follow GitHub Flow — create feature branches from main, open PRs to main, get reviews.
